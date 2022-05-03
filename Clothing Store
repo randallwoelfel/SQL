@@ -33,10 +33,9 @@ INSERT INTO CLOTHINGSTORE VALUES (20, "sweaters" ,10,7,12);
 INSERT INTO CLOTHINGSTORE VALUES (21, "kids cloths" ,10,7,13);
 INSERT INTO CLOTHINGSTORE VALUES (22, "sleepwear" ,10,7,14);
 INSERT INTO CLOTHINGSTORE VALUES (23, "robes" ,10,7,25);
+
 SELECT * FROM clothingstore;
-SELECT * FROM clothingstore;
-SELECT * FROM clothingstore;
-SELECT * FROM clothingstore;
+
 
 SELECT * FROM clothingstore GROUP BY price;
 SELECT * FROM clothingstore GROUP BY colors;
