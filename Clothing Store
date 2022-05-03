@@ -1,0 +1,42 @@
+Create your own store 
+/** clothing store:
+shirts
+pants
+socks
+shoes
+jackets
+gloves
+hats
+long sleaved shirts
+tank tops
+underwear 
+shorts
+sweaters
+kids clothing 
+sleepwear
+robes 
+**/
+
+CREATE TABLE clothingstore (id INTEGER PRIMARY KEY, name TEXT, quantity TEXT, colors TEXT, price NUMERIC);
+INSERT INTO CLOTHINGSTORE VALUES (9, "shirts" ,10, 7,15);
+INSERT INTO CLOTHINGSTORE VALUES (10, "pants" ,10,7,14);
+INSERT INTO CLOTHINGSTORE VALUES (11, "socks" ,10,7,16);
+INSERT INTO CLOTHINGSTORE VALUES (12, "shoes" ,10,7,13);
+INSERT INTO CLOTHINGSTORE VALUES (13, "jackets" ,10,7,17);
+INSERT INTO CLOTHINGSTORE VALUES (14, "gloves" ,10,7,18);
+INSERT INTO CLOTHINGSTORE VALUES (15, "hats" ,10,7,19);
+INSERT INTO CLOTHINGSTORE VALUES (16, "long sleved shirts" ,10,7,14);
+INSERT INTO CLOTHINGSTORE VALUES (17, "tank tops" ,10,7,18);
+INSERT INTO CLOTHINGSTORE VALUES (18, "underwear" ,10,7,20);
+INSERT INTO CLOTHINGSTORE VALUES (19, "shorts" ,10,7,11);
+INSERT INTO CLOTHINGSTORE VALUES (20, "sweaters" ,10,7,12);
+INSERT INTO CLOTHINGSTORE VALUES (21, "kids cloths" ,10,7,13);
+INSERT INTO CLOTHINGSTORE VALUES (22, "sleepwear" ,10,7,14);
+INSERT INTO CLOTHINGSTORE VALUES (23, "robes" ,10,7,25);
+SELECT * FROM clothingstore;
+SELECT * FROM clothingstore;
+SELECT * FROM clothingstore;
+SELECT * FROM clothingstore;
+
+SELECT * FROM clothingstore GROUP BY price;
+SELECT * FROM clothingstore GROUP BY colors;
