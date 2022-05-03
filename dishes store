@@ -1,0 +1,40 @@
+/** dishes store: 
+plates 
+bowls
+cups
+coffee cups
+salad bowls
+knifes 
+spoons 
+forks
+pots
+pans
+baking dishes 
+spatula 
+measuring cup
+tea cup
+soup bowl
+**/
+
+CREATE TABLE dishes_store (id INTEGER PRIMARY KEY,name TEXT, price NUMERIC, material TEXT, quantity NUMERIC, weight NUMERIC);
+
+
+INSERT INTO dishes_store VALUES(1,"plates",2,"glass",10,4);
+INSERT INTO dishes_store VALUES(2,"bowls",3,"glass",10,3);
+INSERT INTO dishes_store VALUES(3,"cups",4,"glass",10,2);
+INSERT INTO dishes_store VALUES(4,"coffee cups",5,"glass",10,1);
+INSERT INTO dishes_store VALUES(5,"salad bowls",6,"glass",10,3);
+INSERT INTO dishes_store VALUES(6,"knifes",7,"glass",10,1);
+INSERT INTO dishes_store VALUES(7,"spoons",8,"glass",10,1);
+INSERT INTO dishes_store VALUES(8,"forks",9,"glass",10,1);
+INSERT INTO dishes_store VALUES(9,"pots",14,"glass",2,10);
+INSERT INTO dishes_store VALUES(10,"pans",15,"glass",2,7);
+INSERT INTO dishes_store VALUES(11,"baking dishes",13,"glass",2,15);
+INSERT INTO dishes_store VALUES(12,"spatula",10,"glass",5,1);
+INSERT INTO dishes_store VALUES(13,"measuring cup",11,"glass",6,1);
+INSERT INTO dishes_store VALUES(14,"tea cup",1,"glass",10,2);
+INSERT INTO dishes_store VALUES(15,"soup bowl",12,"glass",10,3);
+SELECT * FROM dishes_store;
+SELECT * FROM dishes_store ORDER BY price;
+
+SELECT * FROM dishes_store ORDER BY weight;
